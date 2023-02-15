@@ -131,7 +131,7 @@ const hasChangesetBeenAdded = (
 export default (app: Probot) => {
   app.auth();
   app.log("Yay, the app was loaded!");
-
+console.log(app)
   app.on(
     ["pull_request.opened", "pull_request.synchronize"],
     async (context) => {
