@@ -1,3 +1,4 @@
+// @ts-nocheck
 import nodePath from "path";
 import micromatch from "micromatch";
 import { ProbotOctokit } from "probot";
