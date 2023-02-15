@@ -12,6 +12,7 @@ import markdownTable from "markdown-table";
 import { captureException } from "@sentry/node";
 import { ValidationError } from "@changesets/errors";
 
+
 const getReleasePlanMessage = (releasePlan: ReleasePlan | null) => {
   if (!releasePlan) return "";
 
