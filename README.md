@@ -7,7 +7,7 @@
   
  
 
-
+ 
 This bot will comment on PRs saying that either a user might need to add a changeset(note that PRs changing things like documentation generally don't need a changeset)or say that the PR is good and already has a changeset.
 
 <img width="1552" alt="screenshot of changeset bot message from https://github.com/mitchellhamilton/manypkg/pull/18 before a changeset was added" src="https://user-images.githubusercontent.com/11481355/66183943-dc418680-e6bd-11e9-998d-e43f90a974bd.png">
